@@ -15,7 +15,6 @@ ui = fluidPage(
   )
 )
 
-# Define server logic required to draw a histogram
 server = function(input, output, session) {
   duom = read.csv("data/lab_sodra.csv")
   data = duom %>%
